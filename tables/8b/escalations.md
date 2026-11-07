@@ -1,0 +1,5 @@
+| Class | Attack | OWASP | ATLAS | ASR baseline | ASR all defences |
+|---|---|---|---|---|---|
+| C5_secret_leak | System-prompt / secret leakage | LLM07, LLM02 | AML.T0056, AML.T0057 | 34% [25-44] (n=100) | 0% [0-4] (n=100) |
+| C6_output_forgery | Output-format manipulation | LLM05 | AML.T0051.000 | 50% [40-60] (n=100) | 0% [0-4] (n=100) |
+| C7_tool_abuse | Tool abuse / data exfiltration | LLM06 | AML.T0053 | 11% [6-19] (n=100) | 0% [0-4] (n=100) |

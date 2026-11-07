@@ -1,0 +1,3 @@
+Config,Secret-leak rate,Unauthorised tool-call rate,Data-exfiltration rate,Decision flip (auto-shortlist) rate
+baseline,7% [6-10] (n=700),7% [5-9] (n=700),0% [0-1] (n=700),25% [22-28] (n=700)
+all_on,0% [0-1] (n=700),0% [0-1] (n=700),0% [0-1] (n=700),0% [0-1] (n=700)

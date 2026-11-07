@@ -1,0 +1,7 @@
+| Class | Attack | OWASP | ATLAS | ASR baseline | Control: same CV without payload, baseline | ASR all defences | Control, all defences | Score shift baseline | Score shift defended | Score >= 80 before human gate, baseline | Score >= 80 before human gate, defended |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| C1_direct_override | Direct instruction override | LLM01 | AML.T0051.000 | 28% [20-37] (n=100) | 6% [3-12] (n=100) | 0% [0-4] (n=100) | 0% [0-4] (n=100) | +23.9 | +0.0 | 28% [20-37] (n=100) | 0% [0-4] (n=100) |
+| C2_hidden_text | Hidden-text indirect injection (PDF) | LLM01 | AML.T0051.001 | 62% [52-71] (n=100) | 6% [3-12] (n=100) | 0% [0-4] (n=100) | 0% [0-4] (n=100) | +43.1 | +0.0 | 62% [52-71] (n=100) | 0% [0-4] (n=100) |
+| C3_encoding | Encoding / obfuscation | LLM01 | AML.T0068 | 7% [3-14] (n=100) | 6% [3-12] (n=100) | 0% [0-4] (n=100) | 0% [0-4] (n=100) | +2.6 | +0.0 | 7% [3-14] (n=100) | 0% [0-4] (n=100) |
+| C4_authority | Role-play / authority framing | LLM01 | AML.T0054 | 44% [35-54] (n=100) | 6% [3-12] (n=100) | 0% [0-4] (n=100) | 0% [0-4] (n=100) | +32.5 | +0.0 | 44% [35-54] (n=100) | 0% [0-4] (n=100) |
+| ALL score-manipulation | All four classes, pooled average | LLM01 | AML.T0051 | 35% [31-40] (n=400) | 6% [3-12] (n=100) | 0% [0-1] (n=400) | 0% [0-4] (n=100) | +25.8 | +0.0 | 35% [31-40] (n=400) | 0% [0-1] (n=400) |
